@@ -1,0 +1,85 @@
+body{font-family: 'Montserrat', sans-serif; font-size:18px; line-height:30px;}
+a{text-decoration:none;}
+.banner{background:url(../images/showcial-commerce.jpg) no-repeat center center; background-size:cover; color:#fff; height:100vh;}
+.nav-brand{display:inline-block;}
+.nav-menu > li > a{padding:25px 0; font-weight:600; color:#fff;}
+.nav-menu > li > a:hover{color:#ffcf0b;}
+.banner-title{margin-top:250px}
+.banner-title h1{font-size:50px; font-weight:700;}
+.btn-nautone{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 17px;
+    letter-spacing: 2px; 
+    color:#000;
+    background-color:#ffcf0b;
+    border-radius: 4px 4px 4px 4px;
+    transition-duration: .3s;
+    transition-property: transform;
+    padding:10px !important;
+    color:#333 !important;
+}
+.btn-nautone:hover{transform: scale(1.1); background-color:#ffe578; border-color:#ffe578;}
+.nav-menu .btn-nautone{margin-top:15px;}
+.tab{display:none;}
+.title{font-size: 46px; font-weight: 800; line-height: 58px;}
+.view-link{font-size:18px; color:#FFCF0C; position:relative; margin-bottom:5px; font-weight:bold;}
+.view-link:before {
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    background-color:#FFCF0C;
+}
+.view-link:hover{color:#FFCF0C;}
+.view-link:hover:before {
+    transform: scaleX(1);
+}
+.view-link:before, .view-link:after {
+    content: '';
+    position: absolute;
+    transition: transform .5s ease;
+}
+.mb-75 {
+    margin-bottom: 75px;
+}
+.pt-100{padding-top:100px;}
+.service-sec {
+    background: #161C20;
+    color: #fff;
+}
+.service-sec h2 {
+    background: #FFCF0C;
+    background: linear-gradient(to right, #FFCF0C 0%, #ffe578 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 700;
+}
+.service-sec h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.list{margin-bottom:15px; padding:0}
+.list li{list-style-type:none; margin-left:20px; margin-bottom:5px; position:relative;text-align:justify;} 
+.list li:before{
+  content: "\f105";
+  font-family: 'FontAwesome';
+  color: #FFCF0C;
+  font-size: 16px;
+  margin-right: 10px; display:inline-block; position:absolute; left:-15px; top:0;}
+.testimonial .icon{margin-bottom:15px;}
+.testimonial .text{margin-left:110px;}
+.testimonial .text h5{font-weight:bold; margin-top:10px;}
+.footer{background:#161C20; color:#fff;}
+.footer .fsm{text-align:center; padding:0;}
+.footer .fsm li{list-style-type:none; display:inline-block; margin-right:5px;}
+.footer .fsm li:last-child{margin-right:0;}
+.footer .fsm li a{color:#fff; font-size:20px;}
+.footer .fsm li a:hover{color:#FFCF0C;}
+.footer .flink{text-align:center; padding:0; margin-top:10px;}
+.footer .flink li{list-style-type:none; display:inline-block; margin-right:15px;}
+.footer .flink li:last-child{margin-right:0;}
+.footer .flink li a{color:#fff; font-size:14px;}
