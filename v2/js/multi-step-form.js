@@ -5,21 +5,7 @@ var opacity;
 var current = 1;
 var steps = $("fieldset").length;
 
-setProgressBar(current);
-
-$(".steps").validate({
-    errorClass: 'invalid',
-    errorElement: 'span',
-    errorPlacement: function(error, element) {
-        error.insertAfter(element.next('span').children());
-    },
-    highlight: function(element) {
-        $(element).next('span').show();
-    },
-    unhighlight: function(element) {
-        $(element).next('span').hide();
-    }
-});
+setProgressBar(current); 
 
 $(".next").click(function(){
 
