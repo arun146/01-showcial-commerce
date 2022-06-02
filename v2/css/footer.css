@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+.fFGAIg {
+  padding-top: 57px;
+}
+.NleFa {
+  background-color: rgb(51, 51, 51);
+  position: relative;
+}
+
+@media (min-width: 1290px) {
+  .fFGAIg {
+      padding-top: 113px;
+  }
+  .NleFa {
+    padding: 0px 85px;
+  }
+}
+@media (min-width: 768px) {
+  .fFGAIg {
+    padding-top: 78.5px;
+  }
+}

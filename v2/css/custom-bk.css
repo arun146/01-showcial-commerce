@@ -1,0 +1,153 @@
+.hiration_row_1{
+	margin: 0;
+	padding: 10px 0 0 10px;
+}
+.link-pop img{
+    height: 100%;
+  }
+
+  .web_content_para_cls {
+  	max-width: 470px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 13px;
+    line-height: 24px;
+    margin-top: 30px;
+    color: #ffffff;
+  }
+  .left-css{
+    top: 0px;
+    position: absolute;
+    height: 435px;
+    width: 30%;
+    left: 0;
+  }
+  .show-left-icon{
+    display: none;
+    height: 435px;
+    width: 100%;
+    padding-left: 75px;
+    padding-top: 195px;
+  }
+  /*.show-left-icon:hover {
+    display: block;
+  }*/
+
+  .right-css{
+    top: 0px;
+    position: absolute;
+    height: 435px;
+    width: 30%;
+    right: 0;
+  }
+  .show-right-icon{
+    display: none;
+    height: 435px;
+    width: 100%;
+    padding-right: 75px;
+    padding-top: 195px;
+    text-align: right;
+  }
+
+
+  .subscribe_css{
+  opacity: 0.6;
+  background: #0B0C10;
+  margin: 0;
+  padding: 50px 0;
+  /* background-image: url("../images/subscribe_img.png"); */
+  background-size: cover;
+ }
+ .subscribe_css_p_1{
+  /*font: Regular 29px/35px;*/
+  font-size: 13px;
+  line-height: 35px;
+  color: #FFFFFF;
+  margin: 0;
+  width: 100%;
+  opacity: 1;
+ }
+ .subscribe_form_div{
+  width:100%;
+  padding: 40px 80px;
+ }
+ .subscribe_form_div input{
+  border-bottom: 1px solid;
+  margin-right: 30px;
+ }
+ .subscribe_form_div_button {
+  border: 1px solid;
+  width: auto;
+  color: white;
+ }
+ .team_profile_background{
+  background-color: #00000005;
+ }
+
+.whatsapp {
+  display: table;
+  position: relative;
+  z-index: 999;
+  float: right;
+  top: 14px;
+  cursor: pointer;
+  margin-right: 50px;
+  color: white;
+  font-size: 18px;
+  margin-top: -3px;
+}
+
+.remove-anchor-decoration, .remove-anchor-decoration:hover, .remove-anchor-decoration:active {
+  color: white;
+}
+
+.fixed-whatsapp-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  z-index: 10;
+  border-radius: 5px;
+}
+.bg-white {background: #fff}
+.bg-white h1, .bg-white  h2, .bg-white h3, .bg-white h4, .bg-white h5, .bg-white h6, .bg-white p{color: #000;}}
+.bg-white .intro-project h2, .bg-white .subtitle {font-size: 30px; letter-spacing: 0; font-weight: 700}
+.bg-white h4{color: #000; font-weight: bold; font-size: 21px;}
+.bg-white .services-item a{background: rgb(255,207,12);background: linear-gradient(90deg, rgba(255,207,12,1) 0%, rgba(255,229,120,1) 100%); padding: 7px 12px; border-radius: 10px; box-shadow: 0 0 5px rgba(100,100,100,0.5); color: #000; text-align: left; font-size: 14px;}
+.bg-white .services-item .subtitle{font-weight: 600; font-size: 24px;}
+
+.bg-white .vcenter {display: flex; float: none; flex-direction: column; flex-wrap: nowrap; justify-content: center;}
+.bg-white .vcenter a{margin: 0 auto; display: table;}
+.bg-white .our-services .services-item p {max-width: 100%;}
+
+footer {background: rgb(51, 51, 51); }
+footer .footer-row {flex-direction: row; -webkit-box-pack: justify; justify-content: space-between; width: 100%; align-items: flex-start;}
+
+footer .footer-links, footer .social-network{display: flex; flex-direction: row}
+footer .footer-links a, footer .social-network li a{color: #fff; padding-right: 20px; text-transform: capitalize}
+footer .footer-links a{letter-spacing: 0; text-decoration: underline; color: rgb(164, 164, 164); font-size: 16px;}
+footer .footer-content{letter-spacing: 0; color: rgb(164, 164, 164); font-size: 15px; font-weight: 500; line-height: 140%; text-transform: inherit; padding: 0 20px;}
+footer .footer-links-two a{padding-right:50px; color: #fff }
+
+.calient h4, .faq h4 {text-transform: uppercase; font-weight: 600; font-size: 21px; text-align: center}
+.calient, .faq  {margin-top: 80px;}
+.faq .accordion-section .panel-default > .panel-heading {border: 0; padding: 0;}
+.faq .accordion-section .panel-default .panel-title a {display: block;}
+.faq .accordion-section .panel-default .panel-title a:after {font-family: 'Font Awesome 5 Free'; font-style: normal; content: "\f077"; float: right;}
+.faq .accordion-section .panel-default .panel-title a.collapsed:after {content: "\f078";}
+.faq .panel-default>.panel-heading {background: none}
+.faq .panel{border: none; border-bottom: 1px solid #e4e4e4; box-shadow: none; border-radius: 0}
+.faq hr, .calient hr{width: 15%; margin: 0 auto; height: 3px; background: #ccc}
+
+
+.calient .swiper-slide {display: flex; justify-content: center}
+.calient .swiper-wrapper{margin-bottom: 50px;}
+.logo-container .logo{width: 80px; margin-bottom: 10px;}
+
+.inner-page-grey {background: #DEDEDE; -webkit-border-top-left-radius: 20em; -webkit-border-bottom-left-radius: 20em; -moz-border-radius-topleft: 20em; -moz-border-radius-bottomleft: 20em; border-top-left-radius: 20em; border-bottom-left-radius: 20em; padding: 50px 50px 30px 50px; margin: 100px 100px 50px 100px}
+.inner-page-grey-right {background: #DEDEDE; -webkit-border-top-right-radius: 20em; -webkit-border-bottom-right-radius: 20em; -moz-border-radius-topright: 20em; -moz-border-radius-bottomright: 20em; border-top-right-radius: 20em; border-bottom-right-radius: 20em; padding: 50px 50px 30px 50px; margin:80px 100px}
+.inner-page-grey p {margin-bottom: 0}
+.inner-page-grey:first-child {margin-top: 50px}
+.inner-page-grey .one {width: 25%; margin-top: -130px; margin-left: -80px} 
+.inner-page-grey-right .two {width: 25%; margin-top: -130px; margin-right: -80px} 
+.inner-page-grey .three{width: 25%; margin-top: -130px; margin-left: -80px} 
